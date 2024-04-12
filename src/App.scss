@@ -1,0 +1,10 @@
+$backgroundColor1: #6eda78;
+$backgroundColor2: #ffa200;
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: rgb(110,218,120);
+  background: linear-gradient(45deg, $backgroundColor1 0%, $backgroundColor2 100%);
+}
